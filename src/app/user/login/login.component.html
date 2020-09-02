@@ -1,0 +1,16 @@
+
+ <body>
+  <header>
+    <div class="main-header">
+      <h1>Login here..!</h1>
+      <hr/>
+      <form #simpleForm = "ngForm" (ngSubmit) = "login()">
+        <input type="text" ngModel name="username" id="username" placeholder="username" #username>
+        <br><br>
+        <input type="text" ngModel name="username" id="password" placeholder="username" #password>
+        <br><br>
+        <button>Login</button>
+      </form>
+  </div>
+  </header>
+</body>
